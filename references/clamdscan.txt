@@ -1,0 +1,27 @@
+                      Clam AntiVirus: Daemon Client 1.0.7
+           By The ClamAV Team: https://www.clamav.net/about.html#credits
+           (C) 2022 Cisco Systems, Inc.
+
+    clamdscan [options] [file/directory/-]
+
+    --help              -h             Show this help
+    --version           -V             Print version number and exit
+    --verbose           -v             Be verbose
+    --quiet                            Be quiet, only output error messages
+    --stdout                           Write to stdout instead of stderr. Does not affect 'debug' messages.
+                                       (this help is always written to stdout)
+    --log=FILE          -l FILE        Save scan report in FILE
+    --file-list=FILE    -f FILE        Scan files from FILE
+    --ping              -p A[:I]       Ping clamd up to [A] times at optional interval [I] until it responds.
+    --wait              -w             Wait up to 30 seconds for clamd to start. Optionally use alongside --ping to set attempts [A] and interval [I] to check clamd.
+    --remove                           Remove infected files. Be careful!
+    --move=DIRECTORY                   Move infected files into DIRECTORY
+    --copy=DIRECTORY                   Copy infected files into DIRECTORY
+    --config-file=FILE                 Read configuration from FILE.
+    --allmatch            -z           Continue scanning within file after finding a match.
+    --multiscan           -m           Force MULTISCAN mode
+    --infected            -i           Only print infected files
+    --no-summary                       Disable summary at end of scanning
+    --reload                           Request clamd to reload virus database
+    --fdpass                           Pass filedescriptor to clamd (useful if clamd is running as a different user)
+    --stream                           Force streaming files to clamd (for debugging and unit testing)

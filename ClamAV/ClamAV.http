@@ -1,0 +1,6 @@
+@ClamAV_HostAddress = http://localhost:5051
+
+GET {{ClamAV_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

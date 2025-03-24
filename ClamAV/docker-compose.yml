@@ -1,0 +1,23 @@
+# Usage:
+#   docker compose build
+#   docker compose up -d
+ 
+volumes:  
+  clamav_data: 
+   
+services:
+  clamav-api:
+    image: clamav-api:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: clamav-api
+    restart: always
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      ASPNETCORE_HTTP_PORTS: 8080
+    ports:
+      - "32772:8080"
+     
+ 
+   

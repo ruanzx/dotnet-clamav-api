@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClamAV", "ClamAV\ClamAV.csproj", "{46A019ED-636F-4AD7-B992-E77207F23F66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClamAV.UnitTests", "ClamAV.UnitTests\ClamAV.UnitTests.csproj", "{BFD55959-430C-4208-BD22-5BF14D2B69B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46A019ED-636F-4AD7-B992-E77207F23F66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46A019ED-636F-4AD7-B992-E77207F23F66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46A019ED-636F-4AD7-B992-E77207F23F66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46A019ED-636F-4AD7-B992-E77207F23F66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFD55959-430C-4208-BD22-5BF14D2B69B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFD55959-430C-4208-BD22-5BF14D2B69B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFD55959-430C-4208-BD22-5BF14D2B69B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFD55959-430C-4208-BD22-5BF14D2B69B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72D160CC-B568-4346-80F2-548435FF4E75}
+	EndGlobalSection
+EndGlobal
